@@ -251,7 +251,7 @@ function createContent(data) {
             <img src=${data.img} alt="">
           </div>
           <div class = "content__info">
-            <h2>${data.info}</h2>
+            <h2 class="card__desc">${data.info}</h2>
             <h2>${data.size+" "+data.unit}</h2>
             <button class="buy__btn">Buy now</button>
           </div>
